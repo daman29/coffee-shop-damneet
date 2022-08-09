@@ -89,6 +89,7 @@ class CoffeeShop {
         cost,
       };
       this.type.push(newType);
+      console.log(`new type ${name} with the cost ${cost} added`)
     } else {
       // if either name or cost isn't provided send message to the user
       console.log("please provide both name and cost of the new type");
@@ -103,6 +104,7 @@ class CoffeeShop {
         cost,
       };
       this.style.push(newStyle);
+      console.log(`new style ${name} with the cost ${cost} added`)
     } else {
       console.log("please provide both name and cost of the new style");
     }
@@ -116,6 +118,7 @@ class CoffeeShop {
         multiplier,
       };
       this.size.push(newSize);
+      console.log(`new size ${name} with the multiplier ${multiplier} added`)
     } else {
       console.log("please provide both name and multiplier of the new size");
     }
@@ -129,6 +132,7 @@ class CoffeeShop {
         cost,
       };
       this.condiment.push(newCondiment);
+      console.log(`new condiment ${name} with the cost ${cost} added`)
     } else {
       console.log("please provide both name and cost of the new condiment");
     }
