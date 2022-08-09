@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/daman29/coffee-shop-damneet#readme",
   "devDependencies": {
-    "inquirer": "^9.1.0",
     "jest": "^28.1.3"
   }
 }
